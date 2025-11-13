@@ -42,12 +42,6 @@ fastapps-alpic/
 └── package.json
 ```
 
-## Learn More
-
-- **FastApps Framework**: https://pypi.org/project/fastapps/
-- **FastApps (React)**: https://www.npmjs.com/package/fastapps
-- **uv Package Manager**: https://github.com/astral-sh/uv
-- **Documentation**: https://github.com/fastapps-framework/fastapps
 
 ## License
 
