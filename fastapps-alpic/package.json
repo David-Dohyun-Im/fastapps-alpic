@@ -1,0 +1,27 @@
+{
+  "name": "fastapps-alpic",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FastApps project",
+  "scripts": {
+    "build": "npx tsx node_modules/fastapps/build-all.mts"
+  },
+  "dependencies": {
+    "fastapps": "^1.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.552.0",
+    "embla-carousel-react": "^8.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "fast-glob": "^3.3.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "@tailwindcss/vite": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}

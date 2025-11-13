@@ -1,0 +1,19 @@
+import React from 'react';
+import { useWidgetProps } from 'fastapps';
+
+export default function MyWidget() {
+  const { message } = useWidgetProps() || {};
+
+  return (
+    <div style={{
+      background: '#000',
+      color: '#fff',
+      padding: '40px',
+      textAlign: 'center',
+      borderRadius: '8px',
+      fontFamily: 'monospace'
+    }}>
+      <h1>{message || 'Welcome to FastApps'}</h1>
+    </div>
+  );
+}
